@@ -14,6 +14,16 @@ export default [
   },
 
   ...pluginVue.configs['flat/essential'],
+  {
+    rules: {
+      'vue/multi-word-component-names': [
+        'error',
+        {
+          ignores: ['Header', 'Footer'],
+        },
+      ],
+    },
+  },
   ...vueTsEslintConfig(),
   skipFormatting,
 ]

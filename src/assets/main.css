@@ -1,13 +1,12 @@
-/* src/index.css */
-/* @tailwind base;
-@tailwind components;
-@tailwind utilities; */
-
 @import './base.css';
 
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
+  margin: 0;
   padding: 2rem;
   font-weight: normal;
 }
@@ -28,12 +27,12 @@ a,
 
 @media (min-width: 1024px) {
   body {
-    display: flex;
+    display: block;
     place-items: center;
   }
 
   #app {
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr;
     padding: 0 2rem;
   }
