@@ -1,7 +1,7 @@
 <template>
-  <header class="flex items-center justify-between p-4 bg-gray-100 shadow">
+  <header class="flex items-center justify-between p-4 bg-darkBlue text-lightCream shadow">
     <div class="text-xl font-bold">
-      <a href="#">MyPortfolio</a>
+      <a class="" href="#">MyPortfolio</a>
     </div>
     <nav>
       <ul class="flex space-x-4">

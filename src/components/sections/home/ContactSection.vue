@@ -1,11 +1,11 @@
 <template>
-  <section id="contact" class="py-16 px-4 bg-gray-50">
+  <section id="contact" class="py-16 px-4 bg-darkBlue text-white">
     <!-- <div class="max-w-6xl mx-auto"> -->
     <div class="">
       <h2 class="text-2xl font-bold text-center mb-8">Contact Me</h2>
       <div class="flex flex-col md:flex-row gap-8">
         <!-- Contact Form -->
-        <form class="flex-1 bg-white p-6 rounded shadow" @submit.prevent="onSubmit">
+        <form class="flex-1 bg-white text-black p-6 rounded shadow" @submit.prevent="onSubmit">
           <div class="mb-4">
             <label for="name" class="block mb-1 font-semibold">Name</label>
             <input

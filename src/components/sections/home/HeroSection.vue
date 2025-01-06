@@ -7,14 +7,8 @@
     <div class="absolute inset-0 bg-black bg-opacity-40"></div>
 
     <div class="relative z-10 text-center text-white px-4">
-      <h1 class="text-3xl md:text-5xl font-bold mb-4">Hello, I'm [Your Name]</h1>
-      <p class="text-lg md:text-2xl mb-6">I build modern & interactive web experiences.</p>
-      <a
-        href="#about"
-        class="inline-block bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded transition"
-      >
-        Learn More
-      </a>
+      <h1 class="text-3xl md:text-5xl font-bold mb-4">Hello, I'm Nguyen Tien Hung</h1>
+      <p class="text-lg md:text-2xl mb-6">Enthusiast .NET Software Developer & Game Developer.</p>
     </div>
   </section>
 </template>

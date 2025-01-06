@@ -1,5 +1,5 @@
 <template>
-  <div class="border rounded shadow bg-white p-4">
+  <div class="border rounded shadow bg-lightMint p-4">
     <img :src="image" alt="Project Image" class="mb-4 h-40 w-full object-cover rounded" />
     <h3 class="text-lg font-semibold mb-2">{{ title }}</h3>
     <p class="text-gray-700 text-sm mb-4">
