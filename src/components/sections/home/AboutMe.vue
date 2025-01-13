@@ -3,7 +3,7 @@
     <div class="flex flex-col md:flex-row items-center">
       <div class="md:w-1/3 mb-6 md:mb-0">
         <img
-          src="../../../assets/avatar.JPG"
+          src="../../../assets/avatar.jpg"
           alt="Profile Picture"
           class="mx-auto md:mx-0 w-48 h-48 object-cover"
         />
