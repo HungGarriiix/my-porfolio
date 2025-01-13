@@ -1,6 +1,5 @@
 <template>
-  <section class="py-16 px-4 bg-gray-50">
-    <!-- <div class="max-w-6xl mx-auto"> -->
+  <section class="py-16 px-4 bg-white">
     <div class="">
       <h2 class="text-2xl font-bold mb-8">Work Experience</h2>
       <div class="border-l border-gray-300 ml-4">
@@ -21,18 +20,24 @@
 <script setup lang="ts">
 const experiences = [
   {
-    period: 'Jan 2022 - Present',
-    title: 'Frontend Developer',
-    company: 'TechCorp Inc.',
+    period: 'December 2024 - Present',
+    title: 'Freelance game backend developer',
+    company: 'RMIT Game Design Course Project',
     description:
-      'Working on modernizing the company’s web platform, implementing Vue.js for the front-end, and collaborating with design teams for UI/UX improvements.',
+      'Implements basic character movements and extra features such as sprinting with boost \n Applies 2D character vs monsters mechanics upon sword and skill attacks \n Making Third Person View cinematic camera movement when running and aiming.',
   },
   {
-    period: 'Jun 2021 - Dec 2021',
-    title: 'Software Intern',
-    company: 'Startup X',
+    period: 'April 2024 - Present',
+    title: 'Core Operation Member',
+    company: 'ITea Lab',
+    description: "Work on lab' projects, in charge of keeping lawful order, ",
+  },
+  {
+    period: 'Jun 2022 - Aug 2022',
+    title: 'Leader',
+    company: 'Swinburne Health Hackathon 2022',
     description:
-      'Assisted in building and testing new features for the company’s flagship product, focusing on performance optimization.',
+      'Leads a team of 5, into making a mobile platform for mental health doctors. \n In charges of keeping the teams intact.',
   },
 ]
 </script>

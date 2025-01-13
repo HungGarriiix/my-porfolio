@@ -9,6 +9,7 @@ import Achievements from './components/sections/home/AchievementsSection.vue'
 import WorkExperience from './components/sections/home/WorkExperience.vue'
 import ProjectsSection from './components/sections/home/ProjectsSection.vue'
 import ContactSection from './components/sections/home/ContactSection.vue'
+import EducationSection from './components/sections/home/EducationSection.vue'
 import FooterSection from './components/Footer.vue'
 </script>
 
@@ -17,8 +18,9 @@ import FooterSection from './components/Footer.vue'
     <Header />
     <HeroSection />
     <AboutMe />
-    <SkillsSection />
+    <EducationSection />
     <Achievements />
+    <SkillsSection />
     <WorkExperience />
     <ProjectsSection />
     <ContactSection />

@@ -1,5 +1,5 @@
 <template>
-  <div class="p-4 bg-white rounded shadow text-center bg-lightMint">
+  <div class="p-4 rounded shadow text-center bg-lightMint">
     <div class="mb-4">
       <img :src="icon" alt="Skill Icon" class="mx-auto h-12 w-12" />
     </div>
