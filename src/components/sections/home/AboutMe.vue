@@ -2,11 +2,7 @@
   <section id="about" class="py-16 px-4 bg-mutedTeal">
     <div class="flex flex-col md:flex-row items-center">
       <div class="md:w-1/3 mb-6 md:mb-0">
-        <img
-          src="../../../assets/avatar.jpg"
-          alt="Profile Picture"
-          class="mx-auto md:mx-0 w-48 h-48 object-cover"
-        />
+        <img :src="avatar" alt="Profile Picture" class="mx-auto md:mx-0 w-48 h-48 object-cover" />
       </div>
 
       <div class="md:w-2/3 md:pl-8 text-center md:text-left">
@@ -24,6 +20,8 @@
   </section>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import avatar from '@/assets/avatar.jpg'
+</script>
 
 <style scoped></style>

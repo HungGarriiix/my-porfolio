@@ -1,7 +1,7 @@
 <template>
   <section
     class="relative w-full h-[60vh] flex items-center justify-center bg-cover bg-center"
-    style="background-image: url('../../../assets/hero.jpg')"
+    :style="heroStyle"
   >
     <!-- Overlay for better text contrast -->
     <div class="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -13,6 +13,12 @@
   </section>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import hero from '@/assets/hero.jpg'
+
+const heroStyle = {
+  backgroundImage: `url('${hero}')`,
+}
+</script>
 
 <style scoped></style>
