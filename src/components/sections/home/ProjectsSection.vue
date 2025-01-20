@@ -21,10 +21,17 @@
 <script setup lang="ts">
 import ProjectCard from '../../ProjectCard.vue'
 
+import walletAndLoans from '@/assets/projs/wallet_and_loans_full.png'
+import cmsTool from '@/assets/projs/cms_full.png'
+import rocketGame from '@/assets/projs/rocket_game_full.png'
+import idleFactory from '@/assets/projs/idle_factory_full.png'
+import navAlgo from '@/assets/projs/nav_algo_full.png'
+import leetCode from '@/assets/projs/leetcode_full.png'
+
 const projects = [
   {
     title: 'Student Wallet and Loans Discord Bot',
-    image: 'src\\assets\\projs\\wallet_and_loans.png',
+    image: walletAndLoans,
     description:
       "A bot made from Discord to manage a student user's wallets and their spendings, along with checking and notifying to the loaners if they have a loan from the user.",
     demoLink: '#',
@@ -32,7 +39,7 @@ const projects = [
   },
   {
     title: "CMS 2021's car spawn location modification tool",
-    image: 'src\\assets\\projs\\cms.png',
+    image: cmsTool,
     description:
       "Car Mechanic Simulator 2021 tools forked from utilz' CMS 2018 car spawning tool and retuned by me to fit the new version with additionalshop level requirements and spawn randomizer.",
     demoLink: '#',
@@ -40,14 +47,14 @@ const projects = [
   },
   {
     title: 'Rocket game',
-    image: 'src\\assets\\projs\\rocket_game.PNG',
+    image: rocketGame,
     description: 'Made during Unity 3D Udemy course. A game',
     demoLink: '#',
     repoLink: 'https://github.com/HungGarriiix/rocket_boost_escape',
   },
   {
     title: 'Idle clicker Factory game on Windows Form',
-    image: 'src\\assets\\projs\\idle_factory.PNG',
+    image: idleFactory,
     description:
       'A game where you will spam the click buttons to create stuffs to sell to the industries. Requires constant clickings and some logistical solution to advance the factory productions.',
     demoLink: '#',
@@ -55,7 +62,7 @@ const projects = [
   },
   {
     title: 'Pathfinding algorithm agent compilations',
-    image: 'src\\assets\\projs\\nav_algo.PNG',
+    image: navAlgo,
     description:
       'This is my own compilations of pathfinding algorithms for AI written in C#. First intended to serve as my study for COS30019 - Introduction to AI course, I kept and constantly updated this to learn more algorithms.',
     demoLink: '#',
@@ -63,7 +70,7 @@ const projects = [
   },
   {
     title: 'My LeetCode personal storage',
-    image: 'src\\assets\\projs\\leetcode.PNG',
+    image: leetCode,
     description:
       'My own journal for my adventure into LeetCode road map. Used to store my works and my own explanations to note and find my mistakes, and (of course) to further improve the code with many methods.',
     demoLink: '#',
